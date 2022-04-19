@@ -33,7 +33,6 @@ project {
             enabled = false
             name = "kube"
             terminateIdleMinutes = 30
-            terminateTotalWorkMinutes = 2
             apiServerURL = "172.29.14.107:8080"
             authStrategy = unauthorized()
             param("kubeconfigContext", "")
