@@ -30,7 +30,6 @@ project {
     features {
         kubernetesCloudProfile {
             id = "kube-1"
-            enabled = false
             name = "kube"
             terminateIdleMinutes = 30
             apiServerURL = "172.29.14.107:8080"
