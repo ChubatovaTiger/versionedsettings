@@ -30,6 +30,7 @@ project {
     features {
         kubernetesCloudProfile {
             id = "kube-1"
+            enabled = false
             name = "kube"
             terminateIdleMinutes = 30
             terminateTotalWorkMinutes = 2
